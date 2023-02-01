@@ -1,0 +1,38 @@
+header{
+     background-color: #e7f8e7 ;
+    
+}
+.logo_principal{
+    width: 300px;
+    height: 250px; 
+    margin: 15px 30px 15px 80px;
+   
+}
+.p_titulo{
+    font-size: 65px;
+    color: #05912f;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%)
+ }
+ .p_subtitulo{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 27.5%;
+ }
+ .menu_principal{
+    font-size: 30px;
+    position: absolute;
+    top: 78px;
+    left: 85%;
+ }
+ .li_principal{
+    color: #05912f;
+    margin: 15px;
+ }

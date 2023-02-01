@@ -1,2 +1,1 @@
-# Pamonharia_Quero_Mais.
-Site de uma pamonharia
+"Pamonharia-Quero-Mais"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/Mayramv/Pamonharia-Quero-Mais git push -u origin main
