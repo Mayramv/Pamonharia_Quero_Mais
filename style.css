@@ -1,4 +1,4 @@
-header{
+.caixa_logo{
   background-color:  #c9f5cd ;
  
 }
@@ -148,4 +148,15 @@ footer{
   color: #FFFFFF;
 	font-size: 20px;
 	margin: 5px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa_logo,.conteudo_sobre_nos,.img_conteudo,.img_compromisso,
+  .lu_compromisso,.local_contato,.lu_local_contato,.mapa,.copyright,footer {
+      width: 100%;
+      
+      
+  }
+  
+  
 }
