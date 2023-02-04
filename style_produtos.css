@@ -45,3 +45,19 @@
     color: #0e5a25;
     font-style: italic;
 }
+.outras_delicias{
+    font-size: 20px;
+    padding-left: 1000px;
+    padding-top: 15px;
+    font-style: italic;
+    left: 800px;
+}
+.ul_outras_delicias{
+    font-size: 30px;
+     position: absolute;
+     top: 460px;
+   
+}
+.outras_delicias::before{
+    content:"🌽" ;
+}
