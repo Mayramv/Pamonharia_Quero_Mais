@@ -1,63 +1,68 @@
-.produtos{
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(#e0f7d9, #adf597);
-}
-
 .titulo_produtos{
     font-size: 65px;
-    padding-left: 250px;
-    padding-top: 10px;
+    text-align: center;
     color: #05912f;
-
+    background: #e0f7d9;
+    
 }
+.produtos{
+    width: 100%;
+    background: linear-gradient(#e0f7d9, #adf597);
+    padding: 0.5em;
+    
+    display: flex;
+}
+
+
 .p_pamonhas{
     font-size: 45px;
-    padding-left: 100px;
-    padding-top: 23px;
-    padding-bottom: 18px;
     color: #0e5a25;
     font-style: italic;
-}
-.li_pamonha{
-    font-size: 20px;
-    padding-left: 50px;
-    padding-top: 15px;
-    font-style: italic;
-}
-.li_pamonha::before{
-    content:"🌽" ;
-}
-.img_produtos{
-    width: 300px;
-    height: 250px;
-    position: absolute;
-    right: 1%;
-     left: 45%;
-     top: 460px;
+     ;
 }
 .p_outras_delicias{
     font-size: 45px;
-    position: absolute;
-    right: 1%;
-    left: 75%;
-    top: 390px;
     color: #0e5a25;
     font-style: italic;
-}
-.outras_delicias{
-    font-size: 20px;
-    padding-left: 1000px;
-    padding-top: 15px;
-    font-style: italic;
-    left: 800px;
-}
-.ul_outras_delicias{
-    font-size: 30px;
-     position: absolute;
-     top: 460px;
    
 }
-.outras_delicias::before{
-    content:"🌽" ;
+.pamonha,.ul_outras_delicias{
+    padding-left: 1em;
 }
+.li_pamonha{
+    font-size: 20px;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-style: italic;
+}
+
+.img_produtos{
+    width: 300;
+    height: 250px;
+    padding-top: 3em;
+}
+
+.li_outras_delicias{
+    font-size: 20px;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-style: italic;
+}
+.li_outras_delicias::before,.li_pamonha::before{
+    content:"🌽 " ;
+}
+@media screen and (max-width: 480px){.produtos,.img_produtos,.p_outras_delicias,.ul_outras_delicias,.titulo_produtos{
+        width: 100%;
+        }
+       .produtos,.titulo_produtos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       }
+       
+       .produtos{
+        width: 97%;
+       }
+    }
