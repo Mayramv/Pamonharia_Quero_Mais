@@ -1,36 +1,33 @@
 .caixa_logo{
   background-color:  #c9f5cd ;
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  
  
 }
 .logo_principal{
  width: 300px;
  height: 250px; 
- margin: 15px 30px 15px 80px;
+ }
 
-}
+ 
 .p_titulo{
  font-size: 65px;
  color: #05912f;
- margin: 0;
- position: absolute;
- top: 20%;
- left: 50%;
 
- transform: translate(-50%, -50%)
 }
 .p_subtitulo{
  font-size: 20px;
  color: black;
- margin: 0;
- position: absolute;
- top: 25%;
- left: 27%;
-}
+ 
+ }
 .menu_principal{
  font-size: 30px;
- position: absolute;
- top: 78px;
- left: 85%;
+ 
 }
 .li_principal{
  color: #05912f;
@@ -38,60 +35,69 @@
 }
 .conteudo_sobre_nos{
 background: linear-gradient(#e0f7d9, #adf597); 
+
 width: 100%;
-height: 600px;
+display: flex;
+flex-wrap: wrap;
+padding-top: 1em ;
+justify-content: space-around;
 }
 
 .titulo_sobre_nos{
    font-size: 65px;
   color: #05912f;
-   text-align:center;
+  background-color: #e0f7d9;
+  padding-left: 3em;
+  
+   
 }
 
 .p_sobre_nos{
 font-size: 23px;
- color: #021808;
- margin: 50px 10px 10px 30px;
- text-align:center;
- position: absolute;
- right: 40%;
- left: 1%;
- font-style: italic;
+color: #021808;
+width: 60%;
+font-style: italic;
+
+ 
 
 }
 .img_conteudo{
 width: 300px;
 height: 250px;
-position: absolute;
- right: 1%;
- left: 65%;
+
+
+}
+.compromisso{
+  background: linear-gradient(#adf597, #8bee6c); 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em ;
+  justify-content: space-around;
+
+
 }
 .img_compromisso{
 width: 300px;
 height: 250px;
-position: absolute;
-right: 1%;
- left: 73%;
- top: 600px;
+
  
 }
 .titulo_compromisso{
-font-size: 40px;
-color: #05912f;
-position: absolute;
-top: 600px;
-left: 10%;
+  font-size: 40px;
+  color: #05912f;
+  background-color: #adf597;
+  padding-left: 3em;
+
 
 }
 .lu_compromisso{
 font-size: 30px;
- position: absolute;
- top: 650px;
-left: 5%;
+width: 50%;
  
 }
 .li_compromisso{
-margin: 15px;
+padding-bottom: 1em;
 font-style: italic;
 
 }
@@ -99,22 +105,26 @@ font-style: italic;
 content:"🌽" ;
 } 
 .local_contato{
-background: linear-gradient(#adf597, #6c975f);
+background: linear-gradient(#8bee6c, #6c975f);
 width: 100%;
-height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em ;
+  justify-content: space-around;
+  padding: 1em;
 }
 .titulo_contato{
   font-size: 40px;
   color: #05912f;
-  position: absolute;
-  top: 900px;
-  left: 10%;
+  background-color: #8bee6c;
+  padding-left: 3em;
+  
+  
 }
 .lu_local_contato{
 font-size: 25px;
-position: absolute;
-top: 1020px;
-left: 5%;
+width: 40%;
+
 }
 li_local_contato{
 margin: 5px;
@@ -130,11 +140,9 @@ content:"🕿 " ;
   content: "@ ";
 }
 .mapa{
-width: 400px;
+width: 350x;
 height: 300px;
-position: absolute;
-left: 60%;
- top: 980px;
+
 }
 footer{
   text-align: center;
@@ -152,11 +160,16 @@ footer{
 
 @media screen and (max-width: 480px) {
   .caixa_logo,.conteudo_sobre_nos,.img_conteudo,.img_compromisso,
-  .lu_compromisso,.local_contato,.lu_local_contato,.mapa,.copyright,footer {
+  .lu_compromisso,.local_contato,.lu_local_contato,.mapa,.copyright,footer,.compromisso.local_contato,main {
       width: 100%;
       
-      
+     }
+     .caixa_logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     }
+     .local_contato{
+    width: 100vw;
   }
-  
-  
 }
