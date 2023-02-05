@@ -1,0 +1,35 @@
+.caixa_logo{
+    background-color:  #c9f5cd ;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    
+   
+  }
+  .logo_principal{
+   width: 300px;
+   height: 250px; 
+   }
+  
+   
+  .p_titulo{
+   font-size: 65px;
+   color: #05912f;
+  
+  }
+  .p_subtitulo{
+   font-size: 20px;
+   color: black;
+   
+   }
+  .menu_principal{
+   font-size: 30px;
+   
+  }
+  .li_principal{
+   color: #05912f;
+   margin: 35px;
+  }
