@@ -114,17 +114,15 @@ height: 300px;
 
 
 @media screen and (max-width: 580px) {
-  .caixa_logo,.conteudo_sobre_nos,.img_conteudo,.img_compromisso,
-  .lu_compromisso,.local_contato,.lu_local_contato,.mapa,.copyright,footer,.compromisso.local_contato,main {
+  .caixa_logo,.conteudo_sobre_nos,.img_conteudo,.img_compromisso,.conteudo_sobre_nos,.compromisso
+  .lu_compromisso,.local_contato,.lu_local_contato,.mapa,.compromisso.local_contato,.p_sobre_nos,main{
       width: 100%;
       
-     }
-     .caixa_logo{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-     }
-     .local_contato{
-      width: 91.5vw;
-  }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       }
+      
+     
+     
 }
