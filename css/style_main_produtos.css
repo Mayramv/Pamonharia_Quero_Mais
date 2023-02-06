@@ -53,7 +53,7 @@
 .li_outras_delicias::before,.li_pamonha::before{
     content:"🌽 " ;
 }
-@media screen and (max-width: 480px){.produtos,.img_produtos,.p_outras_delicias,.ul_outras_delicias,.titulo_produtos{
+@media screen and (max-width: 580px){.produtos,.img_produtos,.p_outras_delicias,.ul_outras_delicias,.titulo_produtos{
         width: 100%;
         }
        .produtos,.titulo_produtos{
