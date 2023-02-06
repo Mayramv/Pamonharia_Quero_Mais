@@ -33,3 +33,14 @@
    color: #05912f;
    margin: 35px;
   }
+  @media screen and (max-width: 580px){.caixa_logo,header{
+    width: 100%;}
+    .caixa_logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     }
+     
+  }
+
+  
